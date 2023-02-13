@@ -1,0 +1,12 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+.container {
+  padding: 30px 10px;
+  width: 850px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

@@ -1,0 +1,28 @@
+.box {
+  width: 200px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 5px;
+}
+.image + .name {
+  display: none;
+}
+.image:hover + .name {
+  display: block;
+  width: 200px;
+  text-align: center;
+}
+
+.image:hover {
+  filter: brightness(20%);
+  transform: scale(1.1);
+}
+
+.name {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  bottom: 105px;
+}
